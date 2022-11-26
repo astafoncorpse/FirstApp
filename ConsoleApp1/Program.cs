@@ -6,17 +6,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            const string MyName = "Roma";
-            Console.WriteLine(MyName);
-            Console.WriteLine("\t Привет, \nмир!");
-            Console.WriteLine("\t Мне 28 лет");
-            Console.WriteLine("\t My name is \n Roma");
-            Console.WriteLine('\u0040');
-            Console.WriteLine('\x23');
-            Console.WriteLine(true);
-            Console.WriteLine(false);
-            Console.WriteLine(5);
-            
+            string MyName =  " Roma ";
+            byte MyAge =  28;
+            bool HaveIApet = true;
+            double MyShoeSize =  41.5;
+
+            Console.WriteLine("My name is " + MyName);
+            Console.WriteLine("My age " + MyAge);
+            Console.WriteLine("Do I Have a pet? "+ true);
+            Console.WriteLine("My shoe size " + MyShoeSize);
+
             Console.ReadKey();
         }
     }
